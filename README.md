@@ -21,9 +21,7 @@ timezones.
 Current build status
 ====================
 
-Linux: [![Circle CI](https://circleci.com/gh/conda-forge/ftputil-feedstock.svg?style=shield)](https://circleci.com/gh/conda-forge/ftputil-feedstock)
-OSX: [![TravisCI](https://travis-ci.org/conda-forge/ftputil-feedstock.svg?branch=master)](https://travis-ci.org/conda-forge/ftputil-feedstock)
-Windows: [![AppVeyor](https://ci.appveyor.com/api/projects/status/github/conda-forge/ftputil-feedstock?svg=True)](https://ci.appveyor.com/project/conda-forge/ftputil-feedstock/branch/master)
+All platforms: [![Circle CI](https://circleci.com/gh/conda-forge/ftputil-feedstock.svg?style=shield)](https://circleci.com/gh/conda-forge/ftputil-feedstock)
 
 Current release info
 ====================
