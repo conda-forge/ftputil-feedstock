@@ -1,6 +1,6 @@
 {% set name = "ftputil" %}
-{% set version = "3.4" %}
-{% set md5 = "244fc130a445ac3c4d38545479379af2" %}
+{% set version = "4.0.0" %}
+{% set md5 = "893392abdf4e949061415c622a4a4b4b" %}
 
 package:
   name: {{ name|lower }}
@@ -14,13 +14,14 @@ source:
 build:
   noarch: python
   number: 0
-  script: python -m pip install --no-deps --ignore-installed .
+  script: {{ PYTHON }} -m pip install . --no-deps -vv
 
 requirements:
   build:
     - pip
+    - python >=3.6
   run:
-    - python
+    - python >=3.6
 
 test:
   imports:
@@ -31,7 +32,8 @@ test:
 about:
   home: http://ftputil.sschwarzer.net/
   license: BSD 3-Clause
-  summary: 'High-level FTP client library (virtual file system and more)'
+  license_file: LICENSE
+  summary: High-level FTP client library (virtual file system and more)
 
   description: |
     ftputil is a high-level FTP client library for the Python programming
