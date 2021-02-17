@@ -1,6 +1,6 @@
 {% set name = "ftputil" %}
-{% set version = "4.0.0" %}
-{% set md5 = "893392abdf4e949061415c622a4a4b4b" %}
+{% set version = "5.0.0" %}
+{% set md5 = "9405814d9e1dbaedc1b96094638e9f8d" %}
 
 package:
   name: {{ name|lower }}
@@ -17,7 +17,7 @@ build:
   script: {{ PYTHON }} -m pip install . --no-deps -vv
 
 requirements:
-  build:
+  host:
     - pip
     - python >=3.6
   run:
