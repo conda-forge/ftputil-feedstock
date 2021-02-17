@@ -5,9 +5,11 @@ Home: http://ftputil.sschwarzer.net/
 
 Package license: BSD 3-Clause
 
-Feedstock license: BSD 3-Clause
+Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/ftputil-feedstock/blob/master/LICENSE.txt)
 
 Summary: High-level FTP client library (virtual file system and more)
+
+Documentation: http://ftputil.sschwarzer.net/trac/wiki/Documentation
 
 ftputil is a high-level FTP client library for the Python programming
 language. ftputil implements a virtual file system for accessing FTP
