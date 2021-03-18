@@ -1,6 +1,6 @@
 {% set name = "ftputil" %}
-{% set version = "5.0.0" %}
-{% set md5 = "9405814d9e1dbaedc1b96094638e9f8d" %}
+{% set version = "5.0.1" %}
+{% set md5 = "bd7c1084a42e9e444abbb948142976b4" %}
 
 package:
   name: {{ name|lower }}
