@@ -28,6 +28,7 @@ test:
     - python {{ python_min }}
   imports:
     - ftputil
+    - setuptools
   commands:
     - python -c "from ftputil import FTPHost"
 
